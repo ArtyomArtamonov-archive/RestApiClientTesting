@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{1884E7CF-0792-4ED5-A6FF-178EFA532E98}|Default">
+  <MonoDevelop.Ide.ItemProperties.RestApiClient PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="IntegrationTests/UnitTest1.cs">
+    <Files>
+      <File FileName="Sandbox/Program.cs" Line="9" Column="45" />
+      <File FileName="Sandbox/TestingRestApi.cs" />
+      <File FileName="IntegrationTests/UnitTest1.cs" Line="47" Column="47" />
+      <File FileName="IntegrationTests/IntegrationTests.csproj" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="RestApiIntegrationTests" expanded="True" selected="True">
+            <Node name="IntegrationTests" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="ProjectDependencies" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="Sandbox" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
