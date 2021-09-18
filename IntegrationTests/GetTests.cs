@@ -27,6 +27,15 @@ namespace IntegrationTests
             Assert.DoesNotThrow(() => HandleResponse(response));
         }
 
+        [TestCase("a", "b")]
+        [TestCase("true", "false")]
+        public void ShouldThrowWhenTryingToAdd(string a, string b)
+        {
+            var response = _testingClass.Run("addition", a, b);
+
+            Assert.That(() => HandleResponse(response), Throws.Exception);
+        }
+
         [TestCase("15", "15")]
         [TestCase("-15", "-5")]
         [TestCase("-15.0", "-5.0")]
